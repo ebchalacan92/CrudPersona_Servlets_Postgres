@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Nuevo usuario</h1>
+<form action="${usuarioControlador.crearUsuario}" method="post">
+<table>
+<tr><td>Nombre:</td><td><input type="text" name="nombre"/></td></tr>
+<tr><td>Direccion:</td><td><input type="text" name="direccion"/></td></tr>
+<tr><td>Email:</td><td><input type="email" name="email"/></td></tr>
+
+<tr><td colspan="2"><input type="submit" value="Guardar"/></td></tr>
+</table>
+</form>
+
+<br/>
+<a href="VerServlet">Ver Usuarios</a>
+
+</body>
+</html>
